@@ -20,8 +20,13 @@
  * DEALINGS IN THE SOFTWARE.
  */
 metadata {
-    definition(name: "Wink local switch control", namespace: "querel.com", author: "Louis-Philippe Querel",
-            importUrl: "https://raw.githubusercontent.com/") {
+    definition(
+            name: "Wink local switch control",
+            namespace: "com.querel.ha.wlsc",
+            author: "Louis-Philippe Querel",
+            importUrl: "https://raw.githubusercontent.com/louisq/hubitat/master/drivers/wink_local_switch_control/" +
+                    "wink_local_switch_control.groovy"
+    ) {
         capability "Actuator"
         capability "Switch"
         capability "Sensor"
